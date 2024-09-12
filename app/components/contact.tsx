@@ -1,5 +1,5 @@
 import { FaPhone } from "react-icons/fa";
-import map from "../../../../public/map.png";
+import map from "../../public/map.png";
 
 export default function Contact() {
   return (
