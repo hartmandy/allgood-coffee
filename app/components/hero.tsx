@@ -1,4 +1,4 @@
-import hero from "../../../../public/hero.jpg";
+import hero from "../../public/hero.jpg";
 
 export default function Hero() {
   return (
