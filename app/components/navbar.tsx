@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "@remix-run/react";
-import logo from "../../logo.png";
+import logo from "./logo.png";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
