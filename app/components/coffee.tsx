@@ -8,7 +8,7 @@ import coop from "/coop.png";
 export default function CoffeeSection() {
   return (
     <>
-      <section id="coffee" className="p-16">
+      <section id="coffee" className="p-6">
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="lg:w-1/3 mb-6 flex pt-10">
             <h2 className="max-w-md text-3xl md:text-4xl lg:text-5xl font-medium">
