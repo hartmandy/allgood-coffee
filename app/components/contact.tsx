@@ -3,7 +3,7 @@ import map from "../../public/map.png";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-12 ">
+    <section id="contact" className="py-6 ">
       <div className="container mx-auto px-8">
         <h2 className="max-w-md text-3xl md:text-4xl lg:text-5xl font-medium">
           Come on By
