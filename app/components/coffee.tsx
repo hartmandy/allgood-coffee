@@ -1,9 +1,9 @@
-import latte from "../../public/coffee.jpg";
-import shop from "../../public/shop.jpg";
-import beans from "../../public/beans.jpg";
-import dynamite from "../../public/dynamite.webp";
-import mountainair from "../../public/mountainair.png";
-import coop from "../../public/coop.png";
+import latte from "/coffee.jpg";
+import shop from "/shop.jpg";
+import beans from "/beans.jpg";
+import dynamite from "/dynamite.webp";
+import mountainair from "/mountainair.png";
+import coop from "/coop.png";
 
 export default function CoffeeSection() {
   return (
@@ -75,18 +75,22 @@ export default function CoffeeSection() {
       </section>
 
       <hr />
-      <div className="flex justify-center space-x-4 my-6">
+      <div className="flex flex-col md:flex-row justify-center space-x-0 md:space-x-4 my-6">
         <img
           src={dynamite}
           alt="Dynamite Roasters Logo"
-          className="h-20 w-auto"
+          className="h-20 w-auto mb-4 md:mb-0"
         />
         <img
           src={mountainair}
           alt="Mountain Air Logo"
-          className="h-20 w-auto"
+          className="h-20 w-auto mb-4 md:mb-0"
         />
-        <img src={coop} alt="Cooperative Logo" className="h-20 w-auto" />
+        <img
+          src={coop}
+          alt="Cooperative Logo"
+          className="h-20 w-auto mb-4 md:mb-0"
+        />
       </div>
       <hr />
     </>

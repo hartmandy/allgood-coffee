@@ -12,9 +12,9 @@ export default function Footer() {
           </div>
 
           {/* Contact Information */}
-          <div className="text-center md:text-left">
-            <a href="https://www.facebook.com/AllgoodCoffee">
-              <FaFacebook className="text-3xl mb-2" />
+          <div className="flex flex-col items-center md:justify-start">
+            <a href="https://www.facebook.com/AllgoodCoffee" className="mb-2">
+              <FaFacebook className="text-3xl" />
             </a>
             <p>10 S. Main Street</p>
             <p>Weaverville, NC 28787</p>
