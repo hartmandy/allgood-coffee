@@ -75,23 +75,23 @@ export default function CoffeeSection() {
       </section>
 
       <hr />
-      <div className="flex flex-col md:flex-row justify-center space-x-0 md:space-x-4 my-6">
+      <section className="container mx-auto flex flex-col items-center sm:flex-row sm:justify-around md:space-x-4 m-6">
         <img
           src={dynamite}
           alt="Dynamite Roasters Logo"
-          className="h-20 w-auto mb-4 md:mb-0"
+          className="w-40 mb-4 md:mb-0 max-w-xs"
         />
         <img
           src={mountainair}
           alt="Mountain Air Logo"
-          className="h-20 w-auto mb-4 md:mb-0"
+          className="w-40 mb-4 md:mb-0 max-w-xs"
         />
         <img
           src={coop}
           alt="Cooperative Logo"
-          className="h-20 w-auto mb-4 md:mb-0"
+          className="w-40 mb-4 md:mb-0 max-w-xs"
         />
-      </div>
+      </section>
       <hr />
     </>
   );
