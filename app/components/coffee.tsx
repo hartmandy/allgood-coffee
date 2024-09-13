@@ -79,17 +79,17 @@ export default function CoffeeSection() {
         <img
           src={dynamite}
           alt="Dynamite Roasters Logo"
-          className="w-40 mb-4 md:mb-0 max-w-xs"
+          className="w-50 sm:w-40 mb-4 md:mb-0 max-w-xs"
         />
         <img
           src={mountainair}
           alt="Mountain Air Logo"
-          className="w-40 mb-4 md:mb-0 max-w-xs"
+          className="w-50 sm:w-40 mb-4 md:mb-0 max-w-xs"
         />
         <img
           src={coop}
           alt="Cooperative Logo"
-          className="w-40 mb-4 md:mb-0 max-w-xs"
+          className="w-50 sm:w-40 mb-4 md:mb-0 max-w-xs"
         />
       </section>
       <hr />
